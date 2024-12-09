@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: 1px solid;
+            margin: auto; 
+            padding: 10px;
+            color:black;
+            text-align: center;
+            font-weight: bold;
+            box-shadow: 5px 10px 15px skyblue;
+            width: 500px;
+            height: 100px;
+        border-radius: 20px;
+            border-spacing: 20px;
+        }
+        body{
+            background-color:greenyellow;
+        }
+        th{
+            border: 2px solid;
+            border-radius: 15px;
+            box-shadow: 5px 10px 15px seashell;
+        }
+        td{
+            border: 2px solid
+            ;
+            border-radius: 25px;
+            box-shadow: 5px 10px 15px white;
+        }
+        .row1{
+            background-color: darkgray;
+
+        }
+        #row2{
+            background-color: darkcyan;
+        }
+        #row3{
+            background-color: cadetblue;
+        }
+        #row4{
+            background-color: crimson;
+        }
+        
+
+    
+    </style>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr id="row4">
+                <th>
+                    MULTIMEDIA NAME
+                </th>
+                <th>
+                    DESCRIPTION
+                </th>
+                <th>
+                    MULTIMEDIA
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="row1">
+                <td>
+                    IMAGE
+                </td>
+             <td>
+                MY PIC
+             </td>
+            <td>
+        <img src="IMG_1525.jpg" alt="my pic" type="jpg" width="200px" height="300px">
+            </td>
+        </tr>
+        <tr id="row2">
+            <td>AUDIO</td>
+    <td >
+        MY AUDIO
+    </td>
+    <td>
+        <audio controls autoplay loop>
+            <source src="persona.mp3" type="audio/mpeg">
+        </audio>
+    </td>
+        </tr>
+        <tr id="row3">
+        <td>
+            VIDEO
+        </td>
+    <td>
+        MY YOUTUBE VIDEO
+    </td>
+    <td>
+    <video controls autoplay crossorigin="anonymous" loop playsinline width="200px" height="300px">
+        <source src="engineercricketer-shorts-cricket-1080-publer.io.mp4"type="video/mp4">
+    </video>    
+    </td>
+    </tr>
+        </tbody>
+        </table>
+
+
+</body>
+</html>
